@@ -1,0 +1,81 @@
+form{
+    width: 30%;
+  min-height:  150vh;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3%;
+    margin: 3% 30%;
+    box-sizing: border-box;
+    padding-left: 3%;
+    padding-top:1%;
+    box-shadow: 4px 4px 4px lightgrey;
+
+}
+
+form h1{
+    color:#1a73e8;
+}
+
+.inputname{width: 85%;
+border: 1px solid rgba(0, 0, 0, 0.2) ;
+border-radius: 2%;
+height:3.2vh;
+margin-top:3%;
+border: 3px solid #ccc;
+-webkit-transition: 0.5s;
+  transition: 0.4s;
+  outline: none;
+  
+}
+
+.inputname:focus{
+    border-color: #78acf0;
+    
+}
+
+.confirmlable{
+    color:#1a73e8
+}
+
+.bottoncontainer22{
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.bottoncontainer22 a{
+    color: #1a73e8;
+    font-size: 1.4rem;
+    text-decoration: none;
+    
+}
+
+.bottoncontainer22 button{
+    margin-left: 60%;
+    background-color: #1a73e8;
+border: none;
+text-align: center;
+color: white;
+width: auto;
+height:4.2vh;
+width: 15%;
+border-radius: 5%;
+cursor: pointer;}
+
+.check{
+    width: 45%;
+    margin-left: -18%;
+}
+
+.span{height: 10px;
+    text-align: left;
+    margin-top: 5px;
+    width: fit-content;
+    font-size: 0.7rem;
+    color:red;
+    line-height: 10px;
+    padding: 1% 2%;
+    border-radius: 3%;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+    
